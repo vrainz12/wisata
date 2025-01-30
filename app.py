@@ -32,9 +32,9 @@ app = Flask(__name__)
 # Fungsi untuk memuat dataset yang ada
 def load_datasets():
     try:
-        rating = pd.read_csv('D:/code/Data Mining/tourism_rating.csv')
-        place = pd.read_csv('D:/code/Data Mining/tourism_with_id.csv')
-        user = pd.read_csv('D:/code/Data Mining/user.csv')
+        rating = pd.read_csv('tourism_rating.csv')
+        place = pd.read_csv('tourism_with_id.csv')
+        user = pd.read_csv('user.csv')
         return rating, place, user
     except FileNotFoundError as e:
         print(f"Error: {e}")
