@@ -1,0 +1,79 @@
+body {
+    background-image: url('/static/images/wisataFront.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+}
+
+/* Tabel */
+th {
+    text-align: center !important;
+}
+.table-rounded {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Judul */
+h1 {
+    color:white
+}
+
+/* Kata sambutan */
+#greeting {
+    color: white;
+}
+
+/* input jumlah orang */
+.custom-input {
+    border-bottom: 2px solid #007bff;
+    border-radius: 5;
+    box-shadow: none;
+    outline: none;
+}
+.custom-input:focus {
+    border-bottom: 2px solid #0056b3;
+}
+
+/* pilih destinasi */
+.custom-select {
+    border-bottom: 2px solid #007bff;
+    border-radius: 5;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent; 
+}
+.custom-select:focus {
+    border-bottom: 2px solid #0056b3;
+}
+
+/* input jumlah orang dan estimasi */
+.custom-select:focus,
+.custom-input:focus {
+    outline: none; 
+    box-shadow: none;
+}
+
+/* footer */
+.footer {
+    background-color: #333; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    padding: 20px 0; /* Padding atas dan bawah */
+    position: relative; /* Posisi relatif untuk footer */
+    bottom: 0; /* Menempatkan footer di bagian bawah */
+    width: 100%; /* Lebar penuh */
+}
+
+.footer .container {
+    max-width: 1200px; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Pusatkan kontainer */
+    padding: 0 15px; /* Padding samping */
+}
+
+.footer p {
+    margin: 0; /* Menghapus margin default */
+    font-size: 14px; /* Ukuran font */
+}
